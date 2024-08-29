@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"   
-    container_name:  fast-api-fia 
+    container_name:  pchearpos/fast-api-fia 
     volumes:
       - .:/home/app/api   
     stdin_open: true
